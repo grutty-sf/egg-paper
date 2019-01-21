@@ -45,6 +45,9 @@ exports.paper = {
 ```js
 // {app_root}/config/config.default.js
 exports.paper = {
+  baseDir: 'paper',
+  isShortcuts: true, //是否开启快捷键
+  linkBreak: '[\n]',  //换行
 };
 ```
 
